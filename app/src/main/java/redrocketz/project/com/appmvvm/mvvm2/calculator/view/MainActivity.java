@@ -51,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
 
             case SUCCESS:
+                System.out.println("value : " + response.data);
                 updateDisplay(response.data);
                 break;
 
@@ -72,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        viewModel.mainBinding2();
+        viewModel.mainBinding();
     }
 
     @Override

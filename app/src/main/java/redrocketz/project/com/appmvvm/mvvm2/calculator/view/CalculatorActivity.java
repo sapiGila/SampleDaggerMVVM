@@ -93,7 +93,7 @@ public class CalculatorActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        viewModel.calculatorBinding2();
+        viewModel.calculatorBinding();
     }
 
     @Override
